@@ -118,7 +118,16 @@ main {
 .Game-Devblog img:hover {
   width: 420px;
 }
+body {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
 
+body.loaded {
+  opacity: 1;
+  transform: translateY(0);
+}
 /* ===== FOOTER (UNCHANGED) ===== */
 footer {
   text-align: center;
@@ -224,4 +233,5 @@ footer {
     width: 25px;
   }
 }
+
 
