@@ -16,7 +16,7 @@ body.loaded {
 
 header {
   text-align: center;
-  background-image: url("../images/Images/BG1.png");
+  background-image: url("images/Images/BG1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -91,7 +91,7 @@ section {
 }
 
 .About-Me {
-  background-image: url("../images/Images/panel.png");
+  background-image: url("images/Images/panel.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -272,3 +272,4 @@ footer {
     max-width: 90%;          /* responsive image */
   }
 }
+
