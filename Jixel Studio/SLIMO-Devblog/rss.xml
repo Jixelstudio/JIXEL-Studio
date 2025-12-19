@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>SLIMO Devblog</title>
+    <link>https://Jixelstudio.github.io/SLIMO-Devblog/</link>
+    <description>Development updates for the indie game SLIMO</description>
+
+    <item>
+      <title>Devlog #1 – Slime Movement Update</title>
+      <link>https://Jixelstudio.github.io/SLIMO-Devblog/Posts/Devlog-001.html</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+      <description>Reworked slime jump physics and gravity.</description>
+    </item>
+
+  </channel>
+</rss>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JIXEL STUDIO</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="../images/Images/head.png">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<header>
+  <nav class="main-nav">
+    <a href="index.html">HOME</a>
+    <a href="../Blog/Blog.html">BLOG</a>
+    <a href="../My Next Project/My Next Projects.html">MY NEXT PROJECTS</a>
+  </nav>
+  <img src="../images/Images/LOGO-Title.png" class="header-img">
+</header>
+
+
+<main>
+<section>
+  <div class="About-Me">
+    <div class="text">
+      <h2 style="text-decoration: underline;">About Me</h2>
+      <h3 id="typewriter-text"></h3>
+    </div>
+  </div>
+</section>
+
+<script>
+const text = `Hi There! I’m "JIXEL" an aspiring solo indie game developer 
+at the beginning of my journey, building every game from scratch 
+and embracing the many things I still have to learn.`;
+
+let i = 0;
+
+function typeWriter() {
+  const element = document.getElementById("typewriter-text");
+  if (i < text.length) {
+    element.innerHTML += text.charAt(i) === '\n' ? '<br>' : text.charAt(i);
+    i++;
+    setTimeout(typeWriter, 50); // Adjust typing speed here
+  }
+}
+
+// Start typing effect when page loads
+window.onload = typeWriter;
+</script>
+
+  <div class="full-line"></div>
+
+  <section>
+    <h1 class="My-Games-Section">My Games</h1>
+    <div class="Mobile-Section">
+      <h2>Mobile 📱 (Google Play Store):</h2>
+      <a href="../DASHGLE/DASHGLE.html"><img src="../images/Images/title.png"></a>
+    </div>
+    <div class="PC-Section">
+      <h2>PC 💻 (Steam):</h2>
+      <p>(on Production)</p>
+      <a href="../SLIMO/SLIMO.html"><img src="../images/Images/SLIMO.png"></a>
+    </div>  
+  </section>
+</main>
+
+<footer>
+  <div class="End">
+    <img src="../images/Images/Logo.png" class="footer-logo">
+    <p>© 2026 JIXEL STUDIO</p>
+    <a href="../PP/Privacy Policy.html" class="Privacy-Policy">Privacy Policy</a>
+    <div class="Socials">
+      <a href="https://youtube.com/@pixelitestudiogames" target="_blank"><img src="../images/Images/YouTube Icon.ico"></a>
+      <a href="../Contact/Contact.html"><img src="../images/Images/Contact.ico"></a>
+      <a href="https://x.com/JixelStudio" target="_blank"><img src="../images/Images/twitter.ico"></a>
+      <a href="https://www.tiktok.com/@jixelstudio?is_from_webapp=1&sender_device=pc" target="_blank"><img src="../images/Images/Tiktok.ico"></a>
+    </div>
+  </div>
+  <section class="support-me">
+  <h2>Support Me!</h2>
+
+  <a href="https://ko-fi.com/jixelstudio" target="_blank" class="support-btn">
+    ☕ Support on Ko-fi
+  </a>
+</section>
+
+</footer>
+
+<script src="Java.js"></script>
+</body>
+</html>
