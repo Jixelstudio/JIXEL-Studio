@@ -220,6 +220,19 @@ body.loaded {
   opacity: 1;
   transform: translateY(0);
 }
+
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 640px; /* optional max width */
+  margin: 20px auto; /* center the video and add spacing */
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 /* MOBILE NAV STACK */
 @media (max-width: 768px) {
   nav {
